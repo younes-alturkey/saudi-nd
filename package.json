@@ -1,6 +1,6 @@
 {
   "name": "facerecognitionapp",
-  "homepage": "http://alturkeydev.github.io/facerecognitionapp"
+  "homepage": "http://alturkeydev.github.io/facerecognitionapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
