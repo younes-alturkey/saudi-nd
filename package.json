@@ -1,6 +1,6 @@
 {
-  "name": "facerecognitionapp",
-  "homepage": "http://alturkeydev.github.io/facerecognitionapp",
+  "name": "smart-brain",
+  "homepage": "http://alturkeydev.github.io/smart-brain",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
