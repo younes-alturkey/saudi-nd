@@ -1,6 +1,6 @@
 {
   "name": "smart-brain",
-  "homepage": "http://alturkeydev.github.io/smart-brain",
+  "homepage": "https://smart-brain-fe-alturkeydev.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
     "tachyons": "^4.12.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
