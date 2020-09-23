@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/saudi-nd/static/css/main.b8c32353.chunk.css",
-    "main.js": "/saudi-nd/static/js/main.a4f1a77d.chunk.js",
-    "main.js.map": "/saudi-nd/static/js/main.a4f1a77d.chunk.js.map",
+    "main.js": "/saudi-nd/static/js/main.1bf44c37.chunk.js",
+    "main.js.map": "/saudi-nd/static/js/main.1bf44c37.chunk.js.map",
     "runtime-main.js": "/saudi-nd/static/js/runtime-main.aa768989.js",
     "runtime-main.js.map": "/saudi-nd/static/js/runtime-main.aa768989.js.map",
     "static/css/2.058ca934.chunk.css": "/saudi-nd/static/css/2.058ca934.chunk.css",
     "static/js/2.722fcdb4.chunk.js": "/saudi-nd/static/js/2.722fcdb4.chunk.js",
     "static/js/2.722fcdb4.chunk.js.map": "/saudi-nd/static/js/2.722fcdb4.chunk.js.map",
     "index.html": "/saudi-nd/index.html",
-    "precache-manifest.a040f7dadd2ae6ed5960747ef216f7b2.js": "/saudi-nd/precache-manifest.a040f7dadd2ae6ed5960747ef216f7b2.js",
+    "precache-manifest.64d1dbe231a475034f484ca757ecba11.js": "/saudi-nd/precache-manifest.64d1dbe231a475034f484ca757ecba11.js",
     "service-worker.js": "/saudi-nd/service-worker.js",
     "static/css/2.058ca934.chunk.css.map": "/saudi-nd/static/css/2.058ca934.chunk.css.map",
     "static/css/main.b8c32353.chunk.css.map": "/saudi-nd/static/css/main.b8c32353.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.058ca934.chunk.css",
     "static/js/2.722fcdb4.chunk.js",
     "static/css/main.b8c32353.chunk.css",
-    "static/js/main.a4f1a77d.chunk.js"
+    "static/js/main.1bf44c37.chunk.js"
   ]
 }
