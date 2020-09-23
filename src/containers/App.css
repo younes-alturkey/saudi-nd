@@ -15,3 +15,23 @@
   left: 0;
   z-index: -1;
 }
+
+.green{
+  border-style: solid;
+  border-size: 3px;
+  border-color: #27A43E;
+  text-align: center;
+  color: #27A43E;
+}
+
+.greenButton {
+  border-style: solid;
+  border-size: 3px;
+  border-color: #27A43E;
+  background: #27A43E;
+  color: white;
+}
+
+.snd {
+  color: #27A43E;
+}
