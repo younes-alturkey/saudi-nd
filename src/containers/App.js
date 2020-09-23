@@ -89,6 +89,7 @@ constructor(props) {
             <div style={{visibility: 'hidden'}}>
               <AudioPlayer
                 className="w-30 center"
+                preload
                 autoPlay="true"
                 loop="true"
                 showSkipControls
@@ -100,7 +101,7 @@ constructor(props) {
           <p className="white f2" style={{margin: 'auto', width: "50%", display: 'block'}}>خطاء</p>
         )
       }
-      <footer className="pt5 pb6 b white f4">By Younes | FCIT</footer>
+      <footer className="pt5 pb6 b white f4">By Younes | <a href="https://twitter.com/hashtag/%D8%A7%D9%84%D9%8A%D9%88%D9%85_%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A90?src=hashtag_click">🇸🇦 #اليوم_الوطني_السعودي90</a></footer>
       </div>
     );
   }
