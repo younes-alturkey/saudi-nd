@@ -89,7 +89,6 @@ constructor(props) {
             <div style={{visibility: 'hidden'}}>
               <AudioPlayer
                 className="w-30 center"
-                preload
                 autoPlay="true"
                 loop="true"
                 showSkipControls
