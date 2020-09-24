@@ -76,12 +76,13 @@ constructor(props) {
             <div style={{visibility: 'hidden'}}>
               <AudioPlayer
                 className="w-30 center"
-                autoPlay="true"
-                loop="true"
+                autoPlay={true}
+                loop={true}
                 showSkipControls
                 src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Saudi_Arabian_national_anthem%2C_performed_by_the_United_States_Navy_Band.oga"
               />
             </div>
+            {window.scrollTo(0, 0)}
           </div>
           :
           <p className="white f2" style={{margin: 'auto', width: "50%", display: 'block'}}>خطاء</p>
