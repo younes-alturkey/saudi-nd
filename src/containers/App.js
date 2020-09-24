@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Logo from '../components/Logo/Logo';
 import Title from '../components/Title/Title';
 import Particles from 'react-particles-js';
-import { Fireworks } from 'fireworks/lib/react';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import kings from './kings.png';
@@ -19,17 +18,6 @@ const particlesOptions = {
     }
   }
 }
-
-let fxProps = {
-   count: 5,
-   interval: 300,
-   colors: ['#1FA437', '#FFCF01', '#E62A27'],
-   calc: (props, i) => ({
-     ...props,
-     x: (i + 1) * (window.innerWidth / 5) - (i + 1) * 50,
-     y: 550 + Math.random() * 100 - 50 + (i === 2 ? -80 : 0)
-   })
- }
 
 class App extends Component {
 constructor(props) {
@@ -79,7 +67,6 @@ constructor(props) {
         ( route === 'correct'
           ?
           <div className="white f2 pt3 fw6">
-            <Fireworks {...fxProps} />
             <div className="pb3 fw6 mb5 ma2">
               <p className="w-100">
                 <img src={kings} alt="kings" className="pb6" style={{ marginLeft: 'auto', marginRight: 'auto', width: "500px", height: "400px", display: 'block' }}/>
