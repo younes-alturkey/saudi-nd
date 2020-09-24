@@ -69,7 +69,7 @@ constructor(props) {
           <div className="white f2 pt3 fw6">
             <div className="pb3 fw6 mb5 ma2">
               <p className="w-100">
-                <img src={kings} alt="kings" className="pb6" style={{ marginLeft: 'auto', marginRight: 'auto', width: "500px", height: "400px", display: 'block' }}/>
+                <img src={kings} alt="kings" className="pb6" style={{ margin: 'auto', width: "450px", height: "400px", display: 'block' }}/>
                 <strong className="accent pa2 ba bw3">اليوم الوطني السعودي {parseInt(snd) - 1930}</strong>
               </p>
             </div>
