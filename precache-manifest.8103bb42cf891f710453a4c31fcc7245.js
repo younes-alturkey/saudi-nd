@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9005a0ffd26d6b98b6c1d858a89bd48",
+    "revision": "747645deaad7514964b072bcfacca3e9",
     "url": "/saudi-nd/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/saudi-nd/static/css/2.058ca934.chunk.css"
   },
   {
-    "revision": "2fdcd45314bb39c1c453",
-    "url": "/saudi-nd/static/css/main.8dee2266.chunk.css"
+    "revision": "60ecd01bbdd391ea4380",
+    "url": "/saudi-nd/static/css/main.96c594cc.chunk.css"
   },
   {
     "revision": "095b214af92a5fe5f317",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/saudi-nd/static/js/2.94702af1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2fdcd45314bb39c1c453",
+    "revision": "60ecd01bbdd391ea4380",
     "url": "/saudi-nd/static/js/main.8fcd9ed5.chunk.js"
   },
   {

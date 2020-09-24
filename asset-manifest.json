@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/saudi-nd/static/css/main.8dee2266.chunk.css",
+    "main.css": "/saudi-nd/static/css/main.96c594cc.chunk.css",
     "main.js": "/saudi-nd/static/js/main.8fcd9ed5.chunk.js",
     "main.js.map": "/saudi-nd/static/js/main.8fcd9ed5.chunk.js.map",
     "runtime-main.js": "/saudi-nd/static/js/runtime-main.aa768989.js",
@@ -9,10 +9,10 @@
     "static/js/2.94702af1.chunk.js": "/saudi-nd/static/js/2.94702af1.chunk.js",
     "static/js/2.94702af1.chunk.js.map": "/saudi-nd/static/js/2.94702af1.chunk.js.map",
     "index.html": "/saudi-nd/index.html",
-    "precache-manifest.289fd4d4337ebe69688944e98bf43a32.js": "/saudi-nd/precache-manifest.289fd4d4337ebe69688944e98bf43a32.js",
+    "precache-manifest.8103bb42cf891f710453a4c31fcc7245.js": "/saudi-nd/precache-manifest.8103bb42cf891f710453a4c31fcc7245.js",
     "service-worker.js": "/saudi-nd/service-worker.js",
     "static/css/2.058ca934.chunk.css.map": "/saudi-nd/static/css/2.058ca934.chunk.css.map",
-    "static/css/main.8dee2266.chunk.css.map": "/saudi-nd/static/css/main.8dee2266.chunk.css.map",
+    "static/css/main.96c594cc.chunk.css.map": "/saudi-nd/static/css/main.96c594cc.chunk.css.map",
     "static/js/2.94702af1.chunk.js.LICENSE.txt": "/saudi-nd/static/js/2.94702af1.chunk.js.LICENSE.txt",
     "static/media/iris.png": "/saudi-nd/static/media/iris.1c9d6e86.png",
     "static/media/kings.png": "/saudi-nd/static/media/kings.4fa170b9.png"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.aa768989.js",
     "static/css/2.058ca934.chunk.css",
     "static/js/2.94702af1.chunk.js",
-    "static/css/main.8dee2266.chunk.css",
+    "static/css/main.96c594cc.chunk.css",
     "static/js/main.8fcd9ed5.chunk.js"
   ]
 }
