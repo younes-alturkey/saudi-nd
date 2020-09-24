@@ -4,20 +4,8 @@ import Title from '../components/Title/Title';
 import Particles from 'react-particles-js';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
-import { Fireworks } from 'fireworks/lib/react'
 import kings from './kings.png';
 import './App.css';
-
-let fxProps = {
-    count: 3,
-    interval: 200,
-    colors: ['#cc3333', '#4CAF50', '#81C784'],
-    calc: (props, i) => ({
-      ...props,
-      x: (i + 1) * (window.innerWidth / 3) - (i + 1) * 100,
-      y: 200 + Math.random() * 100 - 50 + (i === 2 ? -80 : 0)
-    })
-}
 
 const particlesOptions = {
   particles: {
@@ -94,7 +82,6 @@ constructor(props) {
                 src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Saudi_Arabian_national_anthem%2C_performed_by_the_United_States_Navy_Band.oga"
               />
             </div>
-            <Fireworks {...fxProps} />
           </div>
           :
           <p className="white f2" style={{margin: 'auto', width: "50%", display: 'block'}}>خطاء</p>
