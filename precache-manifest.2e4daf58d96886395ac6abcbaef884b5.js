@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "747645deaad7514964b072bcfacca3e9",
+    "revision": "5aa4ec27416560937f5c3ef4f179dd7f",
     "url": "/saudi-nd/index.html"
   },
   {
-    "revision": "095b214af92a5fe5f317",
+    "revision": "540115739c21bdeec86c",
     "url": "/saudi-nd/static/css/2.058ca934.chunk.css"
   },
   {
-    "revision": "60ecd01bbdd391ea4380",
+    "revision": "ba2eb64cbfbd1d8b50da",
     "url": "/saudi-nd/static/css/main.96c594cc.chunk.css"
   },
   {
-    "revision": "095b214af92a5fe5f317",
-    "url": "/saudi-nd/static/js/2.94702af1.chunk.js"
+    "revision": "540115739c21bdeec86c",
+    "url": "/saudi-nd/static/js/2.a889b8e6.chunk.js"
   },
   {
     "revision": "c97fb91e7dd1c7b19ae67fb152a2e6b2",
-    "url": "/saudi-nd/static/js/2.94702af1.chunk.js.LICENSE.txt"
+    "url": "/saudi-nd/static/js/2.a889b8e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "60ecd01bbdd391ea4380",
-    "url": "/saudi-nd/static/js/main.8fcd9ed5.chunk.js"
+    "revision": "ba2eb64cbfbd1d8b50da",
+    "url": "/saudi-nd/static/js/main.f2500b12.chunk.js"
   },
   {
     "revision": "1fa3f75e1372b4c12484",
