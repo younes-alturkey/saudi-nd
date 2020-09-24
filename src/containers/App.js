@@ -27,7 +27,7 @@ let fxProps = {
    calc: (props, i) => ({
      ...props,
      x: (i + 1) * (window.innerWidth / 5) - (i + 1) * 50,
-     y: 200 + Math.random() * 100 - 50 + (i === 2 ? -80 : 0)
+     y: 550 + Math.random() * 100 - 50 + (i === 2 ? -80 : 0)
    })
  }
 
@@ -53,7 +53,7 @@ constructor(props) {
     if (this.state.day === '23' && this.state.month === '9') {
       this.setState({route: 'correct'});
     } else {
-      alert('الرجاء إدخال تاريخ صحيح');
+      alert('الرجاء إدخال التاريخ الصحيح!');
     }
   }
 
@@ -63,27 +63,27 @@ constructor(props) {
     return (
       <div className="App">
         <Particles params={particlesOptions} className='particles' />
-        <Logo />
         { route === 'default'
           ?
           <div>
+            <Logo />
             <Title />
-              <div className="pt6">
-                <input onChange={this.onMonthChange} placeholder="الشهر الميلادي" type="text" id="month"  className="input-reset white f5 pa2 ba hover-bg-white b green"/>
-                <strong className="f3 white">/</strong>
-                <input onChange={this.onDayChange} placeholder="اليوم الميلادي" type="text" id="day" className="input-reset white f5 pa2 ba hover-bg-white b green"/>
+              <div className="pt5">
+                <input onChange={this.onMonthChange} placeholder="شهر" type="text" id="month"  className="input-reset pt3 pb3 b green"/>
+                <strong className="f3 white"> / </strong>
+                <input onChange={this.onDayChange} placeholder="يوم" type="text" id="day" className="input-reset pt3 pb3 b green"/>
               </div>
-              <input onClick={this.check} type="submit" value="تحقق" className="mt4 b ph3 pv2 input-reset greenButton grow pointer f5 dib"/>
+              <input onClick={this.check} type="submit" value="تحقّق" className="mt4 b ph5 pv2 input-reset greenButton grow pointer f5 dib"/>
             </div>
             :
         ( route === 'correct'
           ?
-          <div className="white f2 pb3 pt3 fw6">
+          <div className="white f2 pt3 fw6">
             <Fireworks {...fxProps} />
-            <div className="f2 pb3 pt4 fw6 mb5">
-              <p style={{margin: 'auto', width: "50%", display: 'block'}}>
-                <img src={kings} alt="kings" className="pb5" style={{ marginLeft: 'auto', marginRight: 'auto', width: "70%", display: 'block' }}/>
-                اليوم الوطني السعودي <strong className="snd">{parseInt(snd) - 1930}</strong>
+            <div className="pb3 fw6 mb5 ma2">
+              <p className="w-100">
+                <img src={kings} alt="kings" className="pb6" style={{ marginLeft: 'auto', marginRight: 'auto', width: "500px", height: "400px", display: 'block' }}/>
+                <strong className="accent pa2 ba bw3">اليوم الوطني السعودي {parseInt(snd) - 1930}</strong>
               </p>
             </div>
             <div style={{visibility: 'hidden'}}>
@@ -101,7 +101,7 @@ constructor(props) {
           <p className="white f2" style={{margin: 'auto', width: "50%", display: 'block'}}>خطاء</p>
         )
       }
-      <footer className="pt5 pb6 b white f4">By Younes | Computer Science Department</footer>
+      <footer className="pt5 pb6 b white f4 dib"><a className="grow dib" href="https://www.linkedin.com/feed/">By Younes</a> | <a className="grow dib" href="https://www.kau.edu.sa/Home.aspx">FCIT of KAU</a></footer>
       </div>
     );
   }

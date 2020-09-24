@@ -19,19 +19,39 @@
 .green{
   border-style: solid;
   border-size: 3px;
-  border-color: #27A43E;
+  border-color: white;
   text-align: center;
-  color: #27A43E;
+  color: white;
+  background-color: #006C35;
 }
 
 .greenButton {
   border-style: solid;
   border-size: 3px;
-  border-color: #27A43E;
-  background: #27A43E;
+  border-color: #006C35;
+  background-color: #006C35;
   color: white;
 }
 
-.snd {
-  color: #27A43E;
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#month {
+  font-size: 0.65rem;
+  font-weight: bold;
+  color: white;
+}
+
+#day {
+  font-size: 0.65rem;
+  font-weight: bold;
+  color: white;
+}
+
+.accent {
+  background-color: #006C35;
+  font-size: 1.2rem;
+  text-align: center;
 }

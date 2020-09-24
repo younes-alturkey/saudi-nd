@@ -3,8 +3,8 @@ import './Title.css'
 
 const Title = () => {
   return (
-    <div className="white f2 pb3 pt6 fw6">
-      <p style={{margin: 'auto'}} className="title pa2 br2 shadow-2">ولدت السعُودية الْعُظمى في</p>
+    <div className="white f2 pb3 pt6">
+      <p style={{margin: 'auto'}} className="title pa2 w-70 ba bw3">في .../... مـ ولدت السعُودية الْعُظمى؟</p>
     </div>
   );
 }
